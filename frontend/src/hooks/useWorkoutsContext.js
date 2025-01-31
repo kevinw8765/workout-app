@@ -11,7 +11,5 @@ export const useWorkoutsContext = () => {
         throw Error('useWorkoutsContext must be used inside an WorkoutsContextProvider')
     }
 
-
-
     return context 
 }
